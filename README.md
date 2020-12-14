@@ -1,10 +1,10 @@
 # BierHierProject
 
-<------------------------------>
 Project naam: Bier Hier
 
-Project lijder:   Sven
-Project werkers:  Thijn
-                  Kevin
-                  Wiljan
-<------------------------------>
+# Werkers
+
+Project lijder:		Sven
+andere:						Thijn
+									Kevin
+									Wiljan

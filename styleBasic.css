@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    list-style-type: none;
 }
 #wrapper {
     background-color: rgb(255, 184, 231);
@@ -28,8 +29,12 @@ ul {
 }
 li {
     padding:15px;
-    border: solid 1px white;
+    border: rgb(255, 184, 231) solid 1px;
     margin: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 184, 231);
 }
 section {
     padding-left: 20px;

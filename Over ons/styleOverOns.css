@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     font-family: 'Raleway', sans-serif;
+    list-style-type: none;
 }
 #wrapper {
     background-color: rgb(255, 184, 231);
@@ -13,10 +14,21 @@ header {
     text-align: center;
 }
 img {
-    width: 30%;
+    width: 35%;
 }
-article {
+#black1 {
+    padding: 10px;
 }
+#black2 {
+    padding: 10px;
+}
+#black3 {
+    padding: 10px;
+}
+#black4 {
+    padding: 10px;
+}
+
 nav {
     background-color: rgb(77,77,77);
 }
@@ -30,8 +42,12 @@ ul {
 }
 li {
     padding:15px;
-    border: solid 1px white;
+    border: rgb(255, 184, 231) solid 1px;
     margin: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 184, 231);
 }
 section {
     padding-left: 20px;
@@ -40,6 +56,7 @@ footer {
     padding: 20px;
     background-color: rgb(77,77,77);
     clear: both;
+    color: rgb(255, 184, 231);
 }
 @media all and (min-width: 650px){
     li {

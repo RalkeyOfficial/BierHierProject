@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 body {
-    background-color: rgb(224, 224, 255);
+    background-color: rgb(255, 184, 231);
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -21,7 +21,7 @@ body {
         padding: 1rem;
         font-size: 2em;
         color: white;
-        background-color: aqua;
+        background-color: rgb(255, 151, 220);
     }
 
     main-body {
@@ -101,3 +101,90 @@ body {
     }
 
 }
+
+@media all and (max-width: 1050px) {
+
+    .container {
+        background-color: rgb(255, 255, 255);
+    }
+    
+    header {
+        padding: 1rem;
+        font-size: 2em;
+        color: white;
+        background-color: rgb(255, 151, 220);
+    }
+
+    main-body {
+        padding: 1em 1em;
+        width: auto;
+    }
+
+    .op1 {
+        margin: 1em;
+    }
+
+    .op1 .mapouter{
+        position: relative;
+        text-align: right;
+        height: 350px;
+        width: 100%;
+        border-radius: 1em;
+        border: solid gray 1px;
+    }
+    .op1 .gmap_canvas {
+        overflow: hidden;
+        background: none;
+        height: 100%;
+        width: 100%;
+        border-radius: 1em;
+    }
+
+    .op2 {
+        padding: 1em;
+        margin: 0 1em;
+        padding: 0;
+    }
+
+    form {
+        border: solid black 1px;
+        border-radius: 1em;
+        height: 91%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    form ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    form ul li {
+        padding: 10px;
+    }
+
+    form ul li input {
+        position: absolute;
+        color: black;
+        right: 10%;
+    }
+    
+    form ul li label {
+        margin: 1em;
+    }
+
+    footer {
+        margin: 0;
+        padding: 0;
+        background-color: rgb(77, 77, 77);
+    }
+
+    footer div {
+        padding: 1rem;
+        color: white;
+        font-size: 13px;
+    }
+
+}
+

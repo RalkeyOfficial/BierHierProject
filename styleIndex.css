@@ -1,8 +1,12 @@
+* {
+    margin: 0;
+    list-style-type: none;
+}
+body {
+
+}
 header {
     background-color: aqua;
-}
-footer {
-    background-color: rgb(77, 77, 77);
 }
 #wrapper {
     width: 1400px;
@@ -24,4 +28,10 @@ li {
 }
 nav ul li a {
     color: black;
+}
+footer {
+    background-color: rgb(77, 77, 77);
+}
+* {
+    list-style-type: none;
 }

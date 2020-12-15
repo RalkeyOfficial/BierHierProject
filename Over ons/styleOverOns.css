@@ -1,27 +1,48 @@
+* {
+    border: dotted 1px black;
+}
 header {
     background-color: aqua;
 }
+footer {
+    background-color: rgb(77, 77, 77);
+}
 #wrapper {
     width: 1400px;
+    margin: auto;
 }
-
+nav {
+    background-color: rgb(77, 77, 77);
+    margin: 0;
+    padding: 0;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    margin: 0;
+    padding: 10px 0 10px 0;
+    border: solid 1px black;
+}
+nav ul li a {
+    color: black;
+}
+body {
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-columns: 25% 25% 25% 25%;
+}
 #black1 {
-    position: absolute;
-    top: 10px;
-    left: 10px;
+    grid-column: 1/2;
+    grid-rows: 4/5;
 }
 #black2 {
-    position: absolute;
-    top: 310px;
-    right: 10px;
+
 }
 #black3 {
-    position: absolute;
-    top: 710px;
-    left: 10px;
+
 }
 #black4 {
-    position: absolute;
-    top: 1020110px;
-    right: 10px;
+
 }

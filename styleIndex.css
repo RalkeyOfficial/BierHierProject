@@ -11,6 +11,12 @@ header {
 #wrapper {
     width: 1400px;
     margin: auto;
+    border: 1px dotted black;
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: 20% 60% 10%;
+}
+main {
 }
 nav {
     background-color: rgb(77, 77, 77);
@@ -31,7 +37,4 @@ nav ul li a {
 }
 footer {
     background-color: rgb(77, 77, 77);
-}
-* {
-    list-style-type: none;
 }

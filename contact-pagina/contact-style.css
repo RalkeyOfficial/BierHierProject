@@ -39,6 +39,7 @@ body {
         text-align: right;
         height: 700px;
         width: auto;
+        border-radius: 1em;
         border: solid gray 1px;
     }
     .op1 .gmap_canvas {
@@ -46,6 +47,7 @@ body {
         background: none;
         height: 700px;
         width: auto;
+        border-radius: 1em;
     }
 
     .op2 {

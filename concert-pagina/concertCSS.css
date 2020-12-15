@@ -4,9 +4,6 @@
     font-family: 'Raleway', sans-serif;
     list-style-type: none;
 }
-div {
-  background-image: url('img/concert.jpg');
-}
 #wrapper {
     background-color: rgb(255, 184, 231);
     margin: 0;

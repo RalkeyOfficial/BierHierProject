@@ -1,89 +1,63 @@
 * {
-    border: dotted 1px black;
     box-sizing: border-box;
     margin: 0;
-    padding: 0;
+    font-family: 'Raleway', sans-serif;
 }
-body {
-    display: grid;
-    grid-template-rows: 25% 25% 25% 25%;
-    grid-template-columns: 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5% 12.5%;
-}
-header {
-    background-color: aqua;
-    grid-column: 1/5;
-    grid-row: 1/2;
-}
-img {
-    width: 100%;
-    height: 100%;
-}
-p {
-    width: 100%;
-    height: 100%;
-}
-footer {
-    background-color: rgb(77, 77, 77);
-    grid-row: 4/5;
-    grid-column: 1/5;
-}
-
 #wrapper {
-    width: 1400px;
-    margin: auto;
-}
-
-nav {
-    background-color: rgb(77, 77, 77);
+    background-color: rgb(255, 184, 231);
     margin: 0;
     padding: 0;
 }
-
-
+header {
+    background-color: rgb(255, 184, 231);
+    text-align: center;
+}
+img {
+    width: 30%;
+}
+article {
+}
+nav {
+    background-color: rgb(77,77,77);
+}
+a.nav {
+    color: white;
+    text-decoration: none;
+}
 ul {
     margin: 0;
     padding: 0;
 }
-
 li {
+    padding:15px;
+    border: solid 1px white;
     margin: 0;
-    padding: 10px 0 10px 0;
-    border: solid 1px black;
 }
-
-nav ul li a {
-    color: black;
+section {
+    padding-left: 20px;
 }
-#black1 {
-    grid-row: 2/4;
-    grid-column: 1/2;
+footer {
+    padding: 20px;
+    background-color: rgb(77,77,77);
+    clear: both;
 }
-#article1 {
-    grid-row: 2/4;
-    grid-column: 2/3;
+@media all and (min-width: 650px){
+    li {
+        display: inline-block;
+        border: none;
+    }
 }
-#black2 {
-    grid-row: 2/4;
-    grid-column: 3/4;
+@media all and (min-width: 1000px){
+    article {
+        vertical-align: top;
+        display: inline-block;
+        width: 45%;
+        margin-right: 4%;
+    }
 }
-#article2 {
-    grid-row: 2/4;
-    grid-column: 4/5;
+@media all and (min-width: 1600px){
+    div#wrapper {
+        width: 1600px;
+        margin: auto;
+    }
 }
-#black3 {
-    grid-row: 2/4;
-    grid-column: 5/6;
-}
-#article3 {
-    grid-row: 2/4;
-    grid-column: 6/7;
-}
-#black4 {
-    grid-row: 2/4;
-    grid-column: 7/8;
-}
-#article4 {
-    grid-row: 2/4;
-    grid-column: 8/9;
-}
-

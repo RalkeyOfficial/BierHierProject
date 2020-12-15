@@ -7,7 +7,7 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-@media all and (min-width: 500px) {
+@media all and (min-width: 1050px) {
 
     .container {
         display: absolute;
@@ -75,9 +75,8 @@ body {
 
     form ul li input {
         position: absolute;
-        left: 70%;
+        left: 63%;
         color: black;
-        margin: 1em;
     }
     
     label {

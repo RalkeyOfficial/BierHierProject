@@ -1,0 +1,27 @@
+header {
+    background-color: aqua;
+}
+#wrapper {
+    width: 1400px;
+}
+
+#black1 {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+#black2 {
+    position: absolute;
+    top: 310px;
+    right: 10px;
+}
+#black3 {
+    position: absolute;
+    top: 710px;
+    left: 10px;
+}
+#black4 {
+    position: absolute;
+    top: 1020110px;
+    right: 10px;
+}

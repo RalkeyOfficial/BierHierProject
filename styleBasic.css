@@ -8,3 +8,8 @@ footer {
     width: 1400px;
     margin: auto;
 }
+nav {
+    background-color: rgb(77, 77, 77);
+    margin: 0;
+    padding: 0;
+}

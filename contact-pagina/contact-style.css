@@ -75,9 +75,9 @@ body {
         padding: 10px;
     }
 
-    form ul li input {
+    form ul li input, textarea {
         position: absolute;
-        left: 63%;
+        right: 20%;
         color: black;
     }
     
@@ -164,7 +164,7 @@ body {
         padding: 10px;
     }
 
-    form ul li input {
+    form ul li input, textarea {
         position: absolute;
         color: black;
         right: 10%;

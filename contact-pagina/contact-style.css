@@ -75,10 +75,20 @@ body {
         padding: 10px;
     }
 
-    form ul li input {
+    form ul li input, textarea {
         position: absolute;
-        left: 63%;
+        right: 20%;
         color: black;
+    }
+
+    form ul .button {
+        position: absolute;
+        bottom: 10%;
+        right: 20%;
+        color: black;
+        width: 100px;
+        height: 30px;
+        border-radius: 1em;
     }
     
     form ul li label {
@@ -149,7 +159,7 @@ body {
     form {
         border: solid black 1px;
         border-radius: 1em;
-        height: 91%;
+        height: 100%;
         width: 100%;
         margin: 0;
         padding: 0;
@@ -164,10 +174,20 @@ body {
         padding: 10px;
     }
 
-    form ul li input {
+    form ul li input, textarea {
         position: absolute;
-        color: black;
         right: 10%;
+        color: black;
+    }
+
+    form ul .button {
+        position: absolute;
+        bottom: 7%;
+        right: 10%;
+        color: black;
+        width: 100px;
+        height: 30px;
+        border-radius: 1em;
     }
     
     form ul li label {

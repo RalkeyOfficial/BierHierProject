@@ -9,6 +9,9 @@
     margin: 0;
     padding: 0;
 }
+article {
+    float: left;
+}
 header {
     background-color: rgb(255, 184, 231);
     text-align: center;
@@ -40,7 +43,8 @@ section {
     padding-left: 20px;
 }
 footer {
-    padding: 20px;
+    padding: 0;
+    text-align: center;
     background-color: rgb(77,77,77);
     clear: both;
     color: rgb(255, 184, 231);
@@ -49,6 +53,13 @@ footer {
     li {
         display: inline-block;
         border: none;
+    }
+    footer {
+        margin: 0;
+        padding: 0;
+    }
+    footer nav {
+        padding: 15px;
     }
 }
 @media all and (min-width: 1000px){

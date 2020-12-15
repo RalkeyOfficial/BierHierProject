@@ -5,6 +5,9 @@
 body {
 
 }
+header {
+    background-color: aqua;
+}
 #wrapper {
     width: 1400px;
     margin: auto;
@@ -23,6 +26,9 @@ li {
     padding: 10px 0 10px 0;
     border: solid 1px black;
 
+}
+footer {
+    background-color: rgb(77, 77, 77);
 }
 #bottomNav {
     background-color: rgb(77, 77, 77);

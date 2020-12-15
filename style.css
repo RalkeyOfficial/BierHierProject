@@ -1,9 +1,12 @@
 body {
-    background-color: darkgray;
+
 }
 nav {
     background-color: black;
     height: 35px;
     padding: 10px;
     margin-top: 10px;
+}
+footer {
+    background-color: darkgray;
 }

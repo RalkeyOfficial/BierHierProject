@@ -1,17 +1,20 @@
 * {
     margin: 0;
+    text-decoration: none;
+    list-style-type: none;
 }
 body {
 
 }
+header {
+    background-color: aqua;
+}
 #wrapper {
     width: 1400px;
-}
-header {
-    background-color: blue;
+    margin: auto;
 }
 nav {
-    background-color: red;
+    background-color: rgb(77, 77, 77);
     margin: 0;
     padding: 0;
 }
@@ -23,8 +26,10 @@ li {
     margin: 0;
     padding: 10px 0 10px 0;
     border: solid 1px black;
-
+}
+nav ul li a {
+    color: black;
 }
 footer {
-    background-color: darkgray;
+    background-color: rgb(77, 77, 77);
 }

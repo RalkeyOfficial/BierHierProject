@@ -4,22 +4,19 @@
     font-family: 'Raleway', sans-serif;
 }
 #wrapper {
-    background-color: rgb(250,241,234);
+    background-color: rgb(255, 184, 231);
     margin: 0;
     padding: 0;
 }
 header {
-    background-color: rgb(193,240,223);
+    background-color: rgb(255, 184, 231);
     text-align: center;
 }
 img {
     width: 100%;
 }
-img#logo {
-    width: 320px;
-}
 nav {
-    background-color: rgb(128,128,128);
+    background-color: rgb(77,77,77);
 }
 a.nav {
     color: white;
@@ -34,50 +31,21 @@ li {
     border: solid 1px white;
     margin: 0;
 }
-h3 {
-    color: rgb(220,106,94);
-    padding-top: 20px;
-    padding-bottom: 20px;
-    font-size: 22px;
-}
 section {
     padding-left: 20px;
 }
-#contact, footer p {
-    color: white;
-}
 footer {
     padding: 20px;
-    background-color: rgb(128,128,128);
+    background-color: rgb(77,77,77);
     clear: both;
 }
-@media all and (min-width: 550px){
+@media all and (min-width: 650px){
     li {
         display: inline-block;
         border: none;
     }
-    #nieuws {
-        width: 40%;
-        float: left;
-    }
-    section#instrumenten {
-        width: 60%;
-        float: right;
-    }
 }
-@media all and (min-width: 920px){
-    #nieuws {
-        width: 30%;
-        float: left;
-    }
-    section#instrumenten {
-        width: 70%;
-        float: right;
-        padding-bottom: 20px;
-    }
-    section#drums {
-        margin-top: 0;
-    }
+@media all and (min-width: 1000px){
     article {
         vertical-align: top;
         display: inline-block;
@@ -85,9 +53,9 @@ footer {
         margin-right: 4%;
     }
 }
-@media all and (min-width: 1200px){
+@media all and (min-width: 1600px){
     div#wrapper {
-        width: 1200px;
+        width: 1600px;
         margin: auto;
     }
 }

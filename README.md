@@ -4,7 +4,7 @@ Project naam: Bier Hier
 
 # Werkers
 
-Project lijder:		Thijn<br/>
+Project lijder:		Wiljan<br/>
 Andere:	&ensp;&ensp;&ensp;&ensp; sven<br/>
-&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Wiljan<br/>
+&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Thijn<br/>
 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;Kevin<br/>

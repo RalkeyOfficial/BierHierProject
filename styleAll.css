@@ -1,11 +1,13 @@
 * {
     margin: 0;
+    text-decoration: none;
 }
 body {
 
 }
 #wrapper {
     width: 1400px;
+    margin: auto;
 }
 header {
     background-color: blue;
@@ -26,5 +28,8 @@ li {
 
 }
 footer {
-    background-color: darkgray;
+    background-color: rgb(77, 77, 77);
+}
+#bottomNav {
+    background-color: rgb(77, 77, 77);
 }

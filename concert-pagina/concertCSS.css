@@ -1,7 +1,10 @@
 header {
-    background-color: blue;
+    background-color: aqua;
 }
-
 footer {
-    background-color: darkgray;
+    background-color: rgb(77, 77, 77);
+}
+#wrapper {
+    width: 1400px;
+    margin: auto;
 }

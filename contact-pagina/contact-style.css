@@ -22,7 +22,7 @@ body {
         padding: 1em;
         font-size: 2em;
         color: white;
-        background-color: rgb(19, 19, 19);
+        background-image: linear-gradient(rgb(19, 19, 19), rgb(50, 50, 50));
     }
 
     .main-body {
@@ -39,7 +39,7 @@ body {
         position:relative;
         text-align:right;
         height:700px;
-        width:100%;
+        width:auto;
     }
     .op1 .gmap_canvas {
         overflow:hidden;

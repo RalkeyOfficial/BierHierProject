@@ -8,12 +8,12 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
-@media all and (min-width: 950px) {
+@media all and (min-width: 500px) {
 
     .container {
         display: absolute;
         left: 50%;
-        width: 950px;
+        width: 70%;
         margin: 0px auto;
         background-color: white;
     }
@@ -21,6 +21,35 @@ body {
     .header {
         padding: 1em;
         font-size: 2em;
+        color: white;
+        background-color: rgb(19, 19, 19);
+    }
+
+    .main-body {
+        margin: 1em;
+        display: flex;
+        width: 100%;
+    }
+
+    .op1 {
+        width: 50%;
+    }
+
+    .op1 .mapouter{
+        position:relative;
+        text-align:right;
+        height:700px;
+        width:100%;
+    }
+    .op1 .gmap_canvas {
+        overflow:hidden;
+        background:none!important;
+        height:700px;
+        width:auto;
+    }
+
+    .op2 {
+        width: 50%;
     }
 
 }

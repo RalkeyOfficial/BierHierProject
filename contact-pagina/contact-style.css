@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
 
 body {
-    background-color: rgb(255, 184, 231);
+    background-color: rgb(255, 161, 224);
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
@@ -14,7 +14,7 @@ body {
         left: 50%;
         width: 70%;
         margin: 0 auto;
-        background-color: white;
+        background-color: rgb(255, 190, 233);
     }
     
     header {
@@ -64,6 +64,7 @@ body {
         width: 100%;
         margin: 0;
         padding: 0;
+        background-color: white;
     }
 
     form ul {
@@ -82,13 +83,11 @@ body {
     }
 
     form ul .button {
-        position: absolute;
-        bottom: 10%;
-        right: 20%;
         color: black;
         width: 100px;
         height: 30px;
         border-radius: 1em;
+        margin: 10px;
     }
     
     form ul li label {

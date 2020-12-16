@@ -65,6 +65,13 @@ footer {
         display: inline-block;
         margin-right: 4%;
     }
+    footer {
+        margin: 0;
+        padding: 0;
+    }
+    footer nav {
+        padding: 15px;
+    }
 }
 @media all and (min-width: 1600px){
     div#wrapper {

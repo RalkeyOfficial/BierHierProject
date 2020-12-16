@@ -4,66 +4,80 @@
     font-family: 'Raleway', sans-serif;
     list-style-type: none;
 }
+
 #wrapper {
     background-color: rgb(255, 184, 231);
     margin: 0;
     padding: 0;
 }
+
 header {
     background-color: rgb(255, 184, 231);
     text-align: center;
 }
+
 body {
     text-align: center;
 }
+
 img {
-    width: 5%;
-    
+    width: 15%;
 }
+
 nav {
-    background-color: rgb(77,77,77);
+    background-color: rgb(77, 77, 77);
 }
+
 a.nav {
     color: white;
     text-decoration: none;
 }
+
 ul {
     margin: 0;
     padding: 0;
 }
+
 li {
-    padding:15px;
+    padding: 15px;
     border: rgb(255, 184, 231) solid 1px;
     margin: 0;
 }
+
 nav ul li a {
     text-decoration: none;
     color: rgb(255, 184, 231);
 }
+
 section {
     padding-left: 20px;
 }
+
 footer {
     padding: 0;
     text-align: center;
-    background-color: rgb(77,77,77);
+    background-color: rgb(77, 77, 77);
     clear: both;
     color: rgb(255, 184, 231);
 }
-@media all and (min-width: 650px){
+
+@media all and (min-width: 650px) {
     li {
         display: inline-block;
         border: none;
     }
+
     footer {
         margin: 0;
         padding: 0;
     }
+
     footer nav {
         padding: 15px;
     }
 }
-@media all and (min-width: 1000px){
+
+@media all and (min-width: 1000px) {
     article {
         vertical-align: top;
         display: inline-block;
@@ -71,18 +85,39 @@ footer {
         margin-right: 4%;
     }
 }
-@media all and (min-width: 1600px){
+
+@media all and (min-width: 1600px) {
     div#wrapper {
         width: 1600px;
         margin: auto;
     }
 }
+
 .concert-pages {
     text-decoration: none;
     position: relative;
+    padding: 10px;
+    background-color: rgb(77, 77, 77);
+    color: rgb(255, 184, 231);
 }
+
 .container {
+    position: relative;
+    margin: 140px auto;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+.box {
     display: flex;
-    align-content: center;
-    flex-direction: column;
+    justify-content: center;
+}
+.mapPin {
+    font-size: 17px;
+    padding-top: 10px;
+    text-align: left;
+}
+.time {
+    font-size: 17px;
+    padding-top: 10px;
+    text-align: left;
 }

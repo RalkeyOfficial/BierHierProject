@@ -53,13 +53,13 @@ footer {
     clear: both;
     color: rgb(255, 184, 231);
 }
-@media all and (min-width: 800px){
+@media all and (min-width: 650px){
     li {
         display: inline-block;
         border: none;
     }
 }
-@media all and (min-width: 1000px){
+@media all and (min-width: 850px){
     article {
         vertical-align: top;
         display: inline-block;

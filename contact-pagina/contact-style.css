@@ -90,7 +90,7 @@ body {
         width: 100px;
         height: 30px;
         border-radius: 5px;
-        margin: 10px;
+        margin: 1em;
     }
     
     form ul li label {
@@ -221,7 +221,7 @@ body {
         width: 100px;
         height: 30px;
         border-radius: 5px;
-        margin: 10px;
+        margin: 1em;
     }
     
     form ul li label {

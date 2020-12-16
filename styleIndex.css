@@ -2,6 +2,8 @@
     box-sizing: border-box;
     font-family: 'Raleway', sans-serif;
     list-style-type: none;
+    padding: 0;
+    margin: 0;
 }
 #wrapper {
     background-color: rgb(255, 184, 231);

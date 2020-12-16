@@ -53,7 +53,7 @@ footer {
     clear: both;
     color: rgb(255, 184, 231);
 }
-@media all and (min-width: 650px){
+@media all and (min-width: 800px){
     li {
         display: inline-block;
         border: none;

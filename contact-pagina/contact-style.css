@@ -90,7 +90,7 @@ body {
         width: 100px;
         height: 30px;
         border-radius: 5px;
-        margin: 10px;
+        margin: 1em;
     }
     
     form ul li label {
@@ -221,7 +221,7 @@ body {
         width: 100px;
         height: 30px;
         border-radius: 5px;
-        margin: 10px;
+        margin: 1em;
     }
     
     form ul li label {
@@ -245,7 +245,7 @@ body {
 
     nav ul {
         margin: 0;
-        padding: 1em;
+        padding: 0;
         list-style-type: none;
     }
 
@@ -254,6 +254,7 @@ body {
         padding: 10px;
         margin: auto;
         display: flex;
+        border: solid white 1px;
     }
 
     nav ul li a {

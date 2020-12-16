@@ -10,9 +10,11 @@
 }
 header {
     background-color: rgb(255, 184, 231);
-    text-align: center;
+    text-align: left;
 }
-img {
+h1 {
+    padding-left: 1em;
+    padding-top: 1em;
 }
 nav {
     background-color: rgb(77,77,77);
@@ -77,17 +79,11 @@ footer {
         display: inline-block;
         width: 45%;
     }
-    .rightSection {
-        float: right;
-    }
 }
 @media all and (min-width: 1600px){
     div#wrapper {
         width: 1600px;
         margin: auto;
-    }
-    .rightSection {
-        float: left;
     }
     main article {
         width: 30%;

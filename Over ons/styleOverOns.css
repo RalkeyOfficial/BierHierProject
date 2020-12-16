@@ -15,20 +15,15 @@ header {
 }
 img {
     width: 35%;
-}
-#black1 {
     padding: 10px;
+    float: top;
 }
-#black2 {
-    padding: 10px;
+article {
+    float: bottom;
 }
-#black3 {
-    padding: 10px;
+.clear {
+    clear: both;
 }
-#black4 {
-    padding: 10px;
-}
-
 nav {
     background-color: rgb(77,77,77);
 }

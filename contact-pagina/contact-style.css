@@ -14,7 +14,7 @@ body {
         left: 50%;
         width: 70%;
         margin: 0 auto;
-        background-color: rgb(255, 190, 233);
+        background-color: white;
     }
     
     header {
@@ -25,14 +25,14 @@ body {
     }
 
     main-body {
-        padding: 1em 1em;
+        padding: 1em;
         display: flex;
         width: auto;
     }
 
     .op1 {
         width: 50%;
-        color: white;
+        color: black;
     }
 
     .op1 .mapouter{
@@ -40,7 +40,7 @@ body {
         text-align: right;
         height: 700px;
         width: auto;
-        border-radius: 1em;
+        border-radius: 5px;
         border: solid gray 1px;
     }
     .op1 .gmap_canvas {
@@ -48,20 +48,18 @@ body {
         background: none;
         height: 100%;
         width: auto;
-        border-radius: 1em;
+        border-radius: 5px;
     }
 
     .op2 {
         width: 50%;
-        padding: 1em;
-        margin: 0 1em;
-        padding: 0;
-        color: white;
+        padding: 0 0 0 1em;
+        color: black;
     }
 
     form {
         border: solid gray 1px;
-        border-radius: 1em;
+        border-radius: 5px;
         height: 91%;
         width: 100%;
         margin: 0;
@@ -87,9 +85,11 @@ body {
 
     form ul .button {
         color: black;
+        background-color: rgb(207, 207, 207);
+        border: solid gray 1px;
         width: 100px;
         height: 30px;
-        border-radius: 1em;
+        border-radius: 5px;
         margin: 10px;
     }
     
@@ -144,7 +144,7 @@ body {
 @media all and (max-width: 1050px) {
 
     .container {
-        background-color: rgb(255, 190, 233);
+        background-color: white;
     }
     
     header {
@@ -161,6 +161,7 @@ body {
 
     .op1 {
         margin: 1em;
+        color: black;
     }
 
     .op1 .mapouter{
@@ -168,7 +169,7 @@ body {
         text-align: right;
         height: 400px;
         width: 100%;
-        border-radius: 1em;
+        border-radius: 5px;
         border: solid gray 1px;
     }
     .op1 .gmap_canvas {
@@ -176,23 +177,25 @@ body {
         background: none;
         height: 100%;
         width: 100%;
-        border-radius: 1em;
+        border-radius: 5px;
     }
 
     .op2 {
         padding: 1em;
         margin: 0 1em;
         padding: 0;
+        color: black;
     }
 
     form {
         border: solid gray 1px;
-        border-radius: 1em;
+        border-radius: 5px;
         height: 100%;
         width: 100%;
         margin: 0;
         padding: 0;
         background-color: white;
+        color: black;
     }
 
     form ul {
@@ -212,10 +215,12 @@ body {
 
     form ul .button {
         color: black;
+        background-color: rgb(207, 207, 207);
+        border: solid gray 1px;
         top: 90%;
         width: 100px;
         height: 30px;
-        border-radius: 1em;
+        border-radius: 5px;
         margin: 10px;
     }
     
@@ -226,7 +231,9 @@ body {
     footer {
         margin: 0;
         padding: 0;
+        text-align: center;
         background-color: rgb(77, 77, 77);
+        color: rgb(255, 184, 231);
     }
 
     nav {
@@ -258,7 +265,6 @@ body {
 
     footer div {
         padding: 1rem;
-        color: white;
         font-size: 13px;
     }
 

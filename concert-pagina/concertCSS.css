@@ -13,8 +13,12 @@ header {
     background-color: rgb(255, 184, 231);
     text-align: center;
 }
+body {
+    text-align: center;
+}
 img {
-    width: 100%;
+    width: 5%;
+    
 }
 nav {
     background-color: rgb(77,77,77);
@@ -40,7 +44,8 @@ section {
     padding-left: 20px;
 }
 footer {
-    padding: 20px;
+    padding: 0;
+    text-align: center;
     background-color: rgb(77,77,77);
     clear: both;
     color: rgb(255, 184, 231);
@@ -49,6 +54,13 @@ footer {
     li {
         display: inline-block;
         border: none;
+    }
+    footer {
+        margin: 0;
+        padding: 0;
+    }
+    footer nav {
+        padding: 15px;
     }
 }
 @media all and (min-width: 1000px){
@@ -64,4 +76,13 @@ footer {
         width: 1600px;
         margin: auto;
     }
+}
+.concert-pages {
+    text-decoration: none;
+    position: relative;
+}
+.container {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
 }

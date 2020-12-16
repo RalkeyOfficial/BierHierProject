@@ -122,8 +122,8 @@ body {
 
     nav ul li {
         text-decoration: none;
-        padding: 40px;
-        margin: auto;
+        padding: 10px;
+        margin: 0;
         display: inline;
     }
 

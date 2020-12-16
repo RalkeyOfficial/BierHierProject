@@ -10,7 +10,7 @@
     padding: 0;
 }
 header {
-    background-image: url('steerboi.png');
+    background-color: rgb(255, 184, 231);
     text-align: center;
 }
 img {

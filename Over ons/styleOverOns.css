@@ -63,6 +63,7 @@ footer {
     article {
         vertical-align: top;
         display: inline-block;
+        width: 35%;
         margin-right: 4%;
     }
     li {

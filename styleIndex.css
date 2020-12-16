@@ -10,7 +10,11 @@
 }
 header {
     background-color: rgb(255, 184, 231);
-    text-align: center;
+    text-align: left;
+}
+h1 {
+    padding-left: 1em;
+    padding-top: 1em;
 }
 nav {
     background-color: rgb(77,77,77);

@@ -7,62 +7,79 @@
     <link rel="stylesheet" href="contact-style.css">
 </head>
 <body>
-    <div class="container">
+    <div id="wrapper">
+        <div class="container">
 
-        <header>Contact</header>
+            <header>Contact</header>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact-pagina/contact.html">Contact pagina</a></li>
+                    <li><a href="Over%20ons/OverOns.html">Over ons</a></li>
+                    <li><a href="concert-pagina/concert.html">Concert</a></li>
+                </ul>
+            </nav>
 
-        <main-body>
-            <div class="op1">
+            <main-body>
+                <div class="op1">
 
-                <h2>Google Maps</h2>
+                    <h2>Google Maps</h2>
 
-                <div class="mapouter">
-                    <div class="gmap_canvas">
-                        <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
-                        </iframe>
+                    <div class="mapouter">
+                        <div class="gmap_canvas">
+                            <iframe width="100%" height="100%" id="gmap_canvas" src="https://maps.google.com/maps?q=&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0">
+                            </iframe>
+                        </div>
                     </div>
+
                 </div>
 
-            </div>
+                <div class="op2">
 
-            <div class="op2">
+                    <h2>vraag formulier</h2>
 
-                <h2>vraag formulier</h2>
+                    <form action="" method="post">
+                        <ul>
+                            <li>
+                                <label for="voornaam">Voornaam</label>
+                                <input type="text" name="voornaam" id="voornaam">
+                            </li>
+                            <li>
+                                <label for="achternaam">Achternaam</label>
+                                <input type="text" name="achternaam" id="achternaam">
+                            </li>
+                            <li>
+                                <label for="email">Email</label>
+                                <input type="email" name="email" id="email">
+                            </li>
+                            <li>
+                                <label for="question">Question</label>
+                                <textarea name="question" id="question" cols="22" rows="7"></textarea>
+                            </li>
+                            <br><br><br><br><br><br>
+                            <input type="submit" value="submit" class="button">
+                        </ul>
+                    </form>
 
-                <form action="" method="post">
-                    <ul>
-                        <li>
-                            <label for="voornaam">Voornaam</label>
-                            <input type="text" name="voornaam" id="voornaam">
-                        </li>
-                        <li>
-                            <label for="achternaam">Achternaam</label>
-                            <input type="text" name="achternaam" id="achternaam">
-                        </li>
-                        <li>
-                            <label for="email">Email</label>
-                            <input type="email" name="email" id="email">
-                        </li>
-                        <li>
-                            <label for="question">Question</label>
-                            <textarea name="question" id="question" cols="22" rows="7"></textarea>
-                        </li>
-                        <br><br><br><br><br><br>
-                        <input type="submit" value="submit" class="button">
-                    </ul>
-                </form>
+                </div>
 
-            </div>
-
-        </main-body>
-
-    </div>
-
-    <footer>
-        <div>
-            copyright ©roc-dev.com 2020 <br>
+            </main-body>
 
         </div>
-    </footer>
+
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="contact-pagina/contact.html">Contact pagina</a></li>
+                    <li><a href="Over%20ons/OverOns.html">Over ons</a></li>
+                    <li><a href="concert-pagina/concert.html">Concert</a></li>
+                </ul>
+            </nav>
+            <div>
+                copyright ©roc-dev.com 2020 <br>
+            </div>
+        </footer>
+    </div>
 </body>
 </html>

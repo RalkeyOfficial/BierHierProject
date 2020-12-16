@@ -161,6 +161,7 @@ body {
 
     .op1 {
         margin: 1em;
+        color: white;
     }
 
     .op1 .mapouter{
@@ -183,6 +184,7 @@ body {
         padding: 1em;
         margin: 0 1em;
         padding: 0;
+        color: white;
     }
 
     form {
@@ -193,6 +195,7 @@ body {
         margin: 0;
         padding: 0;
         background-color: white;
+        color: black;
     }
 
     form ul {
@@ -217,7 +220,7 @@ body {
         top: 90%;
         width: 100px;
         height: 30px;
-        border-radius: 1em;
+        border-radius: 5px;
         margin: 10px;
     }
     
@@ -228,7 +231,9 @@ body {
     footer {
         margin: 0;
         padding: 0;
+        text-align: center;
         background-color: rgb(77, 77, 77);
+        color: rgb(255, 184, 231);
     }
 
     nav {
@@ -260,7 +265,6 @@ body {
 
     footer div {
         padding: 1rem;
-        color: white;
         font-size: 13px;
     }
 

@@ -15,8 +15,8 @@ header {
     text-align: left;
 }
 h1 {
-    padding-left: 1em;
-    padding-top: 1em;
+    padding: 1em;
+
 }
 header nav {
     background-color: rgb(77,77,77);

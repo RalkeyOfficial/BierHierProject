@@ -144,14 +144,14 @@ body {
 @media all and (max-width: 1050px) {
 
     .container {
-        background-color: rgb(255, 190, 233);
+        background-color: white;
     }
     
     header {
         padding: 1rem;
         font-size: 2em;
         color: white;
-        background-color: white;
+        background-color: rgb(255, 151, 220);
     }
 
     main-body {

@@ -26,75 +26,30 @@ body {
 
     main-body {
         padding: 1em;
-        display: flex;
         width: auto;
     }
 
-    .op1 {
-        width: 50%;
+    main-body img {
+        width: 30%;
+    }
+
+    main-body div {
+        padding: 2em;
+        color: white;
+        width: auto;
+        margin: 1em;
+    }
+    main-body div:nth-child(1) {
+        background-color: rgb(255, 170, 227);
         color: white;
     }
-
-    .op2 .mapouter{
-        position: relative;
-        text-align: right;
-        height: 700px;
-        width: auto;
-        border-radius: 5px;
-        border: solid gray 1px;
-    }
-    .op2 .gmap_canvas {
-        overflow: hidden;
-        background: none;
-        height: 100%;
-        width: auto;
-        border-radius: 5px;
-    }
-
-    .op2 {
-        width: 50%;
-        padding: 0 0 0 1em;
-        color: white;
-    }
-
-    form {
-        border: solid gray 1px;
-        border-radius: 5px;
-        height: 91%;
-        width: 100%;
-        margin: 0;
-        padding: 0;
+    main-body div:nth-child(2) {
         background-color: white;
         color: black;
-    }
-
-    form ul {
-        list-style-type: none;
-        padding: 0;
-    }
-
-    form ul li {
-        padding: 10px;
-    }
-
-    form ul li input, textarea {
-        position: absolute;
-        left: 38%;
-        color: black;
-    }
-
-    form ul .button {
-        color: black;
-        background-color: rgb(207, 207, 207);
-        border: solid gray 1px;
-        width: 100px;
-        height: 30px;
-        border-radius: 5px;
-        margin: 1em;
-    }
-    
-    form ul li label {
-        margin: 1em;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
     }
 
     footer {

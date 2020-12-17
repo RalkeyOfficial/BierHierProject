@@ -23,10 +23,10 @@ img {
     margin: 25px;
     display: flex;
     flex-direction: row;
-    align-items: center;
-    justify-content: center;
     align-content: space-around;
     flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
 }
 .basketbal {
     margin: 10px;

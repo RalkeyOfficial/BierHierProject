@@ -2,10 +2,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 * {
     box-sizing: border-box;
+    margin: 0;
     font-family: 'Montserrat', sans-serif;
     list-style-type: none;
-    padding: 0;
-    margin: 0;
 }
 #wrapper {
     background-color: rgb(255, 184, 231);
@@ -20,11 +19,38 @@ header h1 {
     padding: 1em;
 }
 img {
-    width: 350px;
+    width: 450px;
     height: 250px;
 }
-header nav {
+.images {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.basketbal {
+    margin: 25px;
+    border: solid 3px rgb(77,77,77);
+}
+.voetbal {
+    margin: 25px;
+    border: solid 3px rgb(77,77,77);
+}
+.boxing {
+    margin: 25px;
+    border: solid 3px rgb(77,77,77);
+}
+nav {
     background-color: rgb(77,77,77);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+a.nav {
+    color: white;
+    text-decoration: none;
     text-align: center;
 }
 ul {
@@ -39,21 +65,9 @@ li {
 nav ul li a {
     text-decoration: none;
     color: rgb(255, 184, 231);
-    font-family: 'Raleway', sans-serif;
 }
-main {
-    vertical-align: top;
-    height: 500px;
-    font-family: sans-serif;
-}
-main article, main section article {
-    margin: 10px;
-}
-main section article {
-
-}
-article {
-    float: left;
+section {
+    padding-left: 20px;
 }
 footer {
     padding: 0;
@@ -77,24 +91,20 @@ footer p a {
     footer nav {
         padding: 15px;
     }
-    article {
-        margin: 10px;
-        width: 100%;
-    }
 }
-@media all and (min-width: 850px){
+@media all and (min-width: 1000px){
     article {
         vertical-align: top;
         display: inline-block;
         width: 45%;
+        margin-right: 4%;
     }
+
 }
 @media all and (min-width: 1600px){
     div#wrapper {
         width: 1600px;
         margin: auto;
     }
-    main article {
-        width: 30%;
-    }
+
 }

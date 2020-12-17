@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap%27');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 * {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -30,6 +30,9 @@ header nav {
 a.nav {
     color: white;
     text-decoration: none;
+}
+nav {
+    font-family: 'Raleway', sans-serif;
 }
 ul {
     margin: 0;

@@ -10,7 +10,6 @@ body {
 @media all and (min-width: 1050px) {
 
     .container {
-        display: absolute;
         left: 50%;
         width: 70%;
         margin: 0 auto;
@@ -24,7 +23,7 @@ body {
         background-color: rgb(255, 151, 220);
     }
 
-    main-body {
+    main {
         padding: 1em;
         display: flex;
         width: auto;
@@ -98,7 +97,6 @@ body {
     }
 
     footer {
-        margin: 0;
         padding: 0;
         width: 70%;
         margin: 0 auto;
@@ -154,7 +152,7 @@ body {
         background-color: rgb(255, 151, 220);
     }
 
-    main-body {
+    main {
         padding: 1em 1em;
         width: auto;
     }
@@ -183,7 +181,6 @@ body {
     .op2 {
         padding: 1em;
         margin: 0 1em;
-        padding: 0;
         color: white;
     }
 

@@ -14,9 +14,10 @@ header {
     text-align: center;
 }
 img {
-    width: 35%;
+    width: 500px;
     padding: 10px;
     float: top;
+    height: 300px;
 }
 article {
     float: bottom;

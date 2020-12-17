@@ -35,7 +35,7 @@ body {
         color: white;
     }
 
-    .op1 .mapouter{
+    .op2 .mapouter{
         position: relative;
         text-align: right;
         height: 700px;
@@ -43,7 +43,7 @@ body {
         border-radius: 5px;
         border: solid gray 1px;
     }
-    .op1 .gmap_canvas {
+    .op2 .gmap_canvas {
         overflow: hidden;
         background: none;
         height: 100%;
@@ -79,7 +79,7 @@ body {
 
     form ul li input, textarea {
         position: absolute;
-        right: 20%;
+        left: 38%;
         color: black;
     }
 

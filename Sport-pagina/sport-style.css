@@ -15,18 +15,30 @@ header {
     background-color: rgb(255, 184, 231);
     text-align: left;
 }
-main {
+img {
+    width: 450px;
+    height: 250px;
+}
+.images {
+    margin: 25px;
     display: flex;
     flex-direction: row;
-}
-img {
+    align-items: center;
+    justify-content: center;
+    align-content: space-around;
+    flex-wrap: wrap;
 }
 .basketbal {
-    align-content: flex-start;
+    margin: 10px;
+    border: solid 3px rgb(77,77,77);
 }
 .voetbal {
+    margin: 10px;
+    border: solid 3px rgb(77,77,77);
 }
 .boxing {
+    margin: 10px;
+    border: solid 3px rgb(77,77,77);
 }
 nav {
     background-color: rgb(77,77,77);
@@ -79,10 +91,12 @@ footer {
         width: 45%;
         margin-right: 4%;
     }
+
 }
 @media all and (min-width: 1600px){
     div#wrapper {
         width: 1600px;
         margin: auto;
     }
+
 }

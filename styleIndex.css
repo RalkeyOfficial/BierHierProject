@@ -16,7 +16,7 @@ header {
     background-color: rgb(255, 184, 231);
     text-align: left;
 }
-h1 {
+header h1 {
     padding: 1em;
 }
 img {
@@ -26,13 +26,6 @@ img {
 header nav {
     background-color: rgb(77,77,77);
     text-align: center;
-}
-a.nav {
-    color: white;
-    text-decoration: none;
-}
-nav {
-    font-family: 'Raleway', sans-serif;
 }
 ul {
     margin: 0;
@@ -46,6 +39,7 @@ li {
 nav ul li a {
     text-decoration: none;
     color: rgb(255, 184, 231);
+    font-family: 'Raleway', sans-serif;
 }
 main {
     vertical-align: top;

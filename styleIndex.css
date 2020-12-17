@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap%27');
-
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 * {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
@@ -16,7 +16,7 @@ header {
     background-color: rgb(255, 184, 231);
     text-align: left;
 }
-h1 {
+header h1 {
     padding: 1em;
 }
 img {
@@ -26,10 +26,6 @@ img {
 header nav {
     background-color: rgb(77,77,77);
     text-align: center;
-}
-a.nav {
-    color: white;
-    text-decoration: none;
 }
 ul {
     margin: 0;
@@ -43,6 +39,7 @@ li {
 nav ul li a {
     text-decoration: none;
     color: rgb(255, 184, 231);
+    font-family: 'Raleway', sans-serif;
 }
 main {
     vertical-align: top;

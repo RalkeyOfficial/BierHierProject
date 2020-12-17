@@ -164,7 +164,7 @@ body {
         color: white;
     }
 
-    .op1 .mapouter{
+    .op2 .mapouter{
         position: relative;
         text-align: right;
         height: 400px;
@@ -172,7 +172,7 @@ body {
         border-radius: 5px;
         border: solid gray 1px;
     }
-    .op1 .gmap_canvas {
+    .op2 .gmap_canvas {
         overflow: hidden;
         background: none;
         height: 100%;

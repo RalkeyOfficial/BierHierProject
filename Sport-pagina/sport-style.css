@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap%27');
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
-
 * {
     box-sizing: border-box;
     margin: 0;
@@ -17,27 +16,15 @@ header {
     text-align: center;
 }
 img {
-    width: 500px;
-    padding: 10px;
-    float: top;
-    height: 300px;
-}
-h1 {
-    text-align: left;
-}
-article {
-    float: bottom;
-}
-.clear {
-    clear: both;
+    width: 100%;
 }
 nav {
     background-color: rgb(77,77,77);
+    font-family: 'Raleway', sans-serif;
 }
 a.nav {
     color: white;
     text-decoration: none;
-    font-family: 'Raleway', sans-serif;
 }
 ul {
     margin: 0;
@@ -57,23 +44,12 @@ section {
 }
 footer {
     padding: 0;
+    text-align: center;
     background-color: rgb(77,77,77);
     clear: both;
     color: rgb(255, 184, 231);
 }
 @media all and (min-width: 650px){
-    li {
-        display: inline-block;
-        border: none;
-    }
-}
-@media all and (min-width: 850px){
-    article {
-        vertical-align: top;
-        display: inline-block;
-        width: 35%;
-        margin-right: 4%;
-    }
     li {
         display: inline-block;
         border: none;
@@ -84,6 +60,14 @@ footer {
     }
     footer nav {
         padding: 15px;
+    }
+}
+@media all and (min-width: 1000px){
+    article {
+        vertical-align: top;
+        display: inline-block;
+        width: 45%;
+        margin-right: 4%;
     }
 }
 @media all and (min-width: 1600px){

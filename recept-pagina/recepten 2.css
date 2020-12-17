@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap%27');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    list-style-type: none;
+}
+#wrapper {
+    background-color: rgb(255, 184, 231);
+    margin: 0;
+    padding: 0;
+}
+header {
+    background-color: rgb(255, 184, 231);
+    text-align: left;
+}
+header h1 {
+    padding: 1em;
+}
+img {
+    width: 450px;
+    height: 250px;
+}
+.images {
+    margin: 25px;
+    display: flex;
+    flex-direction: row;
+    align-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.basketbal {
+    margin: 25px;
+    border: solid 3px rgb(77,77,77);
+}
+.voetbal {
+    margin: 25px;
+    border: solid 3px rgb(77,77,77);
+}
+.boxing {
+    margin: 25px;
+    border: solid 3px rgb(77,77,77);
+}
+nav {
+    background-color: rgb(77,77,77);
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+}
+a.nav {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    padding:15px;
+    border: rgb(255, 184, 231) solid 1px;
+    margin: 0;
+}
+nav ul li a {
+    text-decoration: none;
+    color: rgb(255, 184, 231);
+}
+section {
+    padding-left: 20px;
+}
+footer {
+    padding: 0;
+    text-align: center;
+    background-color: rgb(77,77,77);
+    clear: both;
+    color: rgb(255, 184, 231);
+}
+footer p a {
+    color: white;
+}
+@media all and (min-width: 650px){
+    li {
+        display: inline-block;
+        border: none;
+    }
+    footer {
+        margin: 0;
+        padding: 0;
+    }
+    footer nav {
+        padding: 15px;
+    }
+}
+@media all and (min-width: 1000px){
+    article {
+        vertical-align: top;
+        display: inline-block;
+        width: 45%;
+        margin-right: 4%;
+    }
+
+}
+@media all and (min-width: 1600px){
+    div#wrapper {
+        width: 1600px;
+        margin: auto;
+    }
+
+}

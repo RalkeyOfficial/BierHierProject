@@ -27,14 +27,22 @@ body {
     main-body {
         padding: 1em;
         width: auto;
+        display: flex;
     }
 
     main-body img {
-        width: 30%;
+        width: 50%;
+        height: 50%;
+        margin: 0;
+    }
+    .img1 {
+        visibility: hidden;
+        width: 0;
+        height: 0;
     }
 
     main-body div {
-        padding: 2em;
+        padding: 1em;
         color: white;
         width: auto;
         margin: 1em;
@@ -50,6 +58,12 @@ body {
     main-body div:nth-child(2n) {
         background-color: rgb(255, 170, 227);
         color: white;
+    }
+    main-body div ul {
+        list-style-type: none;
+    }
+    main-body div ul li {
+        margin: 0 0 10px 0;
     }
 
     footer {
@@ -110,77 +124,44 @@ body {
     }
 
     main-body {
-        padding: 1em 1em;
+        padding: 1em;
         width: auto;
     }
 
-    .op1 {
-        margin: 1em;
-        color: white;
-    }
-
-    .op1 .mapouter{
-        position: relative;
-        text-align: right;
-        height: 400px;
-        width: 100%;
-        border-radius: 5px;
-        border: solid gray 1px;
-    }
-    .op1 .gmap_canvas {
-        overflow: hidden;
-        background: none;
-        height: 100%;
-        width: 100%;
-        border-radius: 5px;
-    }
-
-    .op2 {
-        padding: 1em;
-        margin: 0 1em;
-        padding: 0;
-        color: white;
-    }
-
-    form {
-        border: solid gray 1px;
-        border-radius: 5px;
-        height: 100%;
+    main-body img {
         width: 100%;
         margin: 0;
-        padding: 0;
+    }
+    .img2 {
+        visibility: hidden;
+        width: 0;
+        height: 0;
+    }
+
+    main-body div {
+        padding: 1em;
+        color: white;
+        width: auto;
+        margin: 1em;
+        
+    }
+    main-body div:nth-child(1n) {
         background-color: white;
         color: black;
+        border-top-left-radius: 25px;
+        border-bottom-right-radius: 25px;
+        border-top-right-radius: 5px;
+        border-bottom-left-radius: 5px;
     }
-
-    form ul {
+    main-body div:nth-child(2n) {
+        background-color: rgb(255, 170, 227);
+        color: white;
+    }
+    main-body div ul {
         list-style-type: none;
-        padding: 0;
     }
-
-    form ul li {
-        padding: 10px;
-    }
-
-    form ul li input, textarea {
-        position: absolute;
-        right: 10%;
-        color: black;
-    }
-
-    form ul .button {
-        color: black;
-        background-color: rgb(207, 207, 207);
-        border: solid gray 1px;
-        top: 90%;
-        width: 100px;
-        height: 30px;
-        border-radius: 5px;
-        margin: 1em;
-    }
-    
-    form ul li label {
-        margin: 1em;
+    main-body div ul li {
+        margin: 0 0 10px 0;
     }
 
     footer {

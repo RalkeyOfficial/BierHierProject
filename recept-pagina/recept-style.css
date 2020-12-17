@@ -106,6 +106,9 @@ body {
         padding: 1rem;
         font-size: 13px;
     }
+    footer div a {
+        color: white;
+    }
 
 }
 
@@ -199,6 +202,9 @@ body {
     footer div {
         padding: 1rem;
         font-size: 13px;
+    }
+    footer div a {
+        color: white;
     }
 
 }

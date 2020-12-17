@@ -114,6 +114,9 @@ footer p a {
         text-align: center;
         background-color: rgb(77, 77, 77);
     }
+    nav a {
+        font-family: 'Raleway', sans-serif;
+    }
 
     nav ul {
         margin: 0;
@@ -135,9 +138,16 @@ footer p a {
         margin: 0;
     }
 
+    footer p {
+        margin: 0;
+    }
+
     footer div {
         padding: 1rem;
         font-size: 13px;
+    }
+    footer div a {
+        color: white;
     }
 
 }
@@ -264,9 +274,16 @@ footer p a {
         margin: 0;
     }
 
+    footer p {
+        margin: 0;
+    }
+
     footer div {
         padding: 1rem;
         font-size: 13px;
+    }
+    footer div a {
+        color: white;
     }
 
 }

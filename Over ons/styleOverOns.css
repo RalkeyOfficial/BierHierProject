@@ -19,6 +19,9 @@ img {
     float: top;
     height: 300px;
 }
+h1 {
+    text-align: left;
+}
 article {
     float: bottom;
 }

@@ -24,7 +24,7 @@ body {
 }
 
 img {
-    width: 15%;
+    width: 35%;
 }
 
 nav {
@@ -106,7 +106,7 @@ footer {
 
 .container {
     position: relative;
-    margin: 140px auto;
+    margin: 70px auto;
     box-sizing: border-box;
     font-size: 25px;
 }
@@ -123,4 +123,15 @@ footer {
     font-size: 17px;
     padding-top: 10px;
     text-align: left;
+}
+#powerwolfText {
+    width: 55%;
+    margin: auto;
+}
+#albumCover {
+    width:15%;
+}
+#pageIMG {
+    margin-top: 70px;
+    margin-bottom: 20px
 }

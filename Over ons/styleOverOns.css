@@ -24,6 +24,7 @@ article {
 }
 .clear {
     clear: both;
+    padding-left: 100px;
 }
 nav {
     background-color: rgb(77,77,77);

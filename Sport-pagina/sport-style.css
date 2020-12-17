@@ -73,6 +73,9 @@ footer {
     clear: both;
     color: rgb(255, 184, 231);
 }
+footer p a {
+    color: white;
+}
 @media all and (min-width: 650px){
     li {
         display: inline-block;

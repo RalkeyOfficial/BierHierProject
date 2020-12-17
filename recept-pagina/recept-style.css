@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+body {
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+@media all and (min-width: 1050px) {
+
+    .container {
+        display: absolute;
+        left: 50%;
+        width: 70%;
+        margin: 0 auto;
+        background-color: rgb(255, 170, 227);
+    }
+    
+    header {
+        padding: 1rem;
+        font-size: 2em;
+        color: white;
+        background-color: rgb(255, 151, 220);
+    }
+
+    main-body {
+        padding: 1em;
+        display: flex;
+        width: auto;
+    }
+
+    .op1 {
+        width: 50%;
+        color: white;
+    }
+
+    .op2 .mapouter{
+        position: relative;
+        text-align: right;
+        height: 700px;
+        width: auto;
+        border-radius: 5px;
+        border: solid gray 1px;
+    }
+    .op2 .gmap_canvas {
+        overflow: hidden;
+        background: none;
+        height: 100%;
+        width: auto;
+        border-radius: 5px;
+    }
+
+    .op2 {
+        width: 50%;
+        padding: 0 0 0 1em;
+        color: white;
+    }
+
+    form {
+        border: solid gray 1px;
+        border-radius: 5px;
+        height: 91%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        color: black;
+    }
+
+    form ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    form ul li {
+        padding: 10px;
+    }
+
+    form ul li input, textarea {
+        position: absolute;
+        left: 38%;
+        color: black;
+    }
+
+    form ul .button {
+        color: black;
+        background-color: rgb(207, 207, 207);
+        border: solid gray 1px;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        margin: 1em;
+    }
+    
+    form ul li label {
+        margin: 1em;
+    }
+
+    footer {
+        margin: 0;
+        padding: 0;
+        width: 70%;
+        margin: 0 auto;
+        background-color: rgb(77, 77, 77);
+        text-align: center;
+        color: rgb(255, 184, 231);
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: rgb(77, 77, 77);
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 1em;
+        list-style-type: none;
+    }
+
+    nav ul li {
+        text-decoration: none;
+        padding: 10px;
+        margin: 0;
+        display: inline;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: rgb(255, 184, 231);
+        padding: 0;
+        margin: 0;
+    }
+
+    footer div {
+        padding: 1rem;
+        font-size: 13px;
+    }
+
+}
+
+@media all and (max-width: 1050px) {
+
+    .container {
+        background-color: rgb(255, 170, 227);
+    }
+    
+    header {
+        padding: 1rem;
+        font-size: 2em;
+        color: white;
+        background-color: rgb(255, 151, 220);
+    }
+
+    main-body {
+        padding: 1em 1em;
+        width: auto;
+    }
+
+    .op1 {
+        margin: 1em;
+        color: white;
+    }
+
+    .op1 .mapouter{
+        position: relative;
+        text-align: right;
+        height: 400px;
+        width: 100%;
+        border-radius: 5px;
+        border: solid gray 1px;
+    }
+    .op1 .gmap_canvas {
+        overflow: hidden;
+        background: none;
+        height: 100%;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    .op2 {
+        padding: 1em;
+        margin: 0 1em;
+        padding: 0;
+        color: white;
+    }
+
+    form {
+        border: solid gray 1px;
+        border-radius: 5px;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: white;
+        color: black;
+    }
+
+    form ul {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    form ul li {
+        padding: 10px;
+    }
+
+    form ul li input, textarea {
+        position: absolute;
+        right: 10%;
+        color: black;
+    }
+
+    form ul .button {
+        color: black;
+        background-color: rgb(207, 207, 207);
+        border: solid gray 1px;
+        top: 90%;
+        width: 100px;
+        height: 30px;
+        border-radius: 5px;
+        margin: 1em;
+    }
+    
+    form ul li label {
+        margin: 1em;
+    }
+
+    footer {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: rgb(77, 77, 77);
+        color: rgb(255, 184, 231);
+    }
+
+    nav {
+        margin: 0;
+        padding: 0;
+        text-align: center;
+        background-color: rgb(77, 77, 77);
+    }
+
+    nav ul {
+        margin: 0;
+        padding: 0;
+        list-style-type: none;
+    }
+
+    nav ul li {
+        text-decoration: none;
+        padding: 10px;
+        margin: auto;
+        display: flex;
+        border: solid white 1px;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: rgb(255, 184, 231);
+        padding: 0;
+        margin: 0;
+    }
+
+    footer div {
+        padding: 1rem;
+        font-size: 13px;
+    }
+
+}
+
